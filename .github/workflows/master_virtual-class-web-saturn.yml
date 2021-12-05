@@ -53,4 +53,4 @@ jobs:
           app-name: 'virtual-class-web-saturn'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_56B077E5FA2348D7855179F3443A2BDE }}
-          package: .
+          package: ./dist/virtual-class-web-saturn
